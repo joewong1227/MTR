@@ -1,7 +1,5 @@
 # 港鐵微信小程式
-在微信小程式上即時查詢港鐵路線。
-
-Scan QR Code: <img src="https://github.com/wsjwong/MTR/blob/master/readme_image/mtr_qr.jpg?raw=true" width="100">
+在微信小程式上即時查詢港鐵路線。QR Code: <img src="https://github.com/wsjwong/MTR/blob/master/readme_image/mtr_qr.jpg?raw=true" width="100">
 
 # Demo
 <img src="https://github.com/wsjwong/MTR/blob/master/readme_image/trip.png?raw=true" width="350"><img src="https://github.com/wsjwong/MTR/blob/master/readme_image/discover.png?raw=true" width="350">
