@@ -4,8 +4,7 @@
 Scan QR Code: <img src="https://github.com/wsjwong/MTR/blob/master/readme_image/mtr_qr.jpg?raw=true" width="100">
 
 # Demo
-<img src="https://github.com/wsjwong/MTR/blob/master/readme_image/trip.png?raw=true" width="250">
-<img src="https://github.com/wsjwong/MTR/blob/master/readme_image/discover.png?raw=true" width="250">
+<img src="https://github.com/wsjwong/MTR/blob/master/readme_image/trip.png?raw=true" width="350"><img src="https://github.com/wsjwong/MTR/blob/master/readme_image/discover.png?raw=true" width="350">
 
 # 特點
 * 即時查詢轉站路線及行程用時
