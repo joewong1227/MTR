@@ -1,7 +1,8 @@
-# 港鐵微信小程序					  
+# 港鐵微信小程序	  
 在微信小程序上即時查詢港鐵路線。
 
 # Demo
+![港鐵微信小程序 QR code](https://github.com/wsjwong/MTR/blob/master/mtr_qr.jpg?raw=true)
 
 # 特點
 * 即時查詢轉站路線及行程用時
@@ -12,17 +13,7 @@
 * Clone from GitHub
 * <a href="https://github.com/wsjwong/MTR/archive/gh-pages.zip" target="_blank">Download ZIP</a>
 
-1.更改 pages/result/result.js 及 pages/discover/discover.js 中的 Google API key
-
-# Contributing
-All forms of contribution are welcome:
-* Bug Reports
-* Bug Fixes
-* Work on To-do List
-* Documentations
-* Suggestions
-
-[List of contributors](https://github.com/wsjwong/MTR/graphs/contributors)
+1. 更改 pages/result/result.js 及 pages/discover/discover.js 中的 Google API key
 
 # Credit
 * <a href="https://developers.weixin.qq.com/miniprogram/dev/index.html" target="_blank">微信小程序</a>
