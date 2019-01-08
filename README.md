@@ -1,6 +1,6 @@
 # 港鐵微信小程式
 在微信小程式上即時查詢港鐵路線。
-![港鐵微信小程式](https://github.com/wsjwong/MTR/blob/master/readme_image/mtr_qr.jpg?raw=true | width=100)
+<img src="https://github.com/wsjwong/MTR/blob/master/readme_image/mtr_qr.jpg?raw=true" width="100">
 
 # Demo
 ![港鐵微信小程式](https://github.com/wsjwong/MTR/blob/master/readme_image/trip.png?raw=true)
