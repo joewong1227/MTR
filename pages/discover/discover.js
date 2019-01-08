@@ -11,7 +11,7 @@ Page({
     // Init variables
     hasUserLocation: false,
     userLocation: '',
-    googleApiKey: 'AIzaSyAL1eUZ-uoiEstNr7k1gi5I1tWwZRoT0cA',
+    googleApiKey: 'yourgoogleapikey',
     placesArr: [],
     filteredArr: [],
     filtered: false,
@@ -118,7 +118,7 @@ Page({
       this.setData({
         pickerIndex: res.detail.value,
         filtered: false
-      })  
+      })
     } else {
       var filteredArr = []
       var i = 0

@@ -18,7 +18,7 @@ Page({
     lineName: '',
     lineColor: '',
     instruction: '',
-    googleApiKey: 'AIzaSyAL1eUZ-uoiEstNr7k1gi5I1tWwZRoT0cA',
+    googleApiKey: 'inputYourGoogleAPIkey',
     journeyStart: '',
     journeyEnd: '',
   },
