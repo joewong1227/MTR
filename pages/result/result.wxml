@@ -1,0 +1,30 @@
+<!--result.wxml-->
+
+<view wx:if="{{loading}}">
+  <button class="loading-icon" loading="true"></button>
+</view>
+
+<view wx:if="{{!loading&&gotResult}}" class="page">
+
+  <view class="total">
+    <view class="label">旅途需时：</view>
+    <view>{{totalTime}}</view>
+  </view>
+
+  <view class="result-container" wx:for="{{resultArr}}">
+    <view class="flex-wrp">
+      <view class="line" style="background-color: {{item.lineColor}}">{{item.lineName}}</view>
+      <view class="headsign">{{item.instruction}}</view>
+    </view>
+    <view class="flex-wrp" style="justify-content: space-between;">
+      <view>{{item.departureStop}}</view>
+      <view>{{item.numStop}}个站 ({{item.duration}})</view>
+      <view>{{item.arrivalStop}}</view>
+    </view>
+  </view>
+
+  <view class="btn-container">
+    <button class="weui-btn" open-type="share" type="primary">转发</button>
+  </view>
+
+</view>

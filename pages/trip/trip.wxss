@@ -1,0 +1,17 @@
+/* pages/trip/trip.wxss */
+@import "../../utils/weui.wxss";
+
+.logo {
+  height: 50rpx;
+  width: 100%;
+}
+
+.map {
+  width: 100%;
+}
+
+.location-btn {
+    position: absolute;
+    right: 20rpx;
+    top: 60rpx;
+}

@@ -1,0 +1,36 @@
+<!--discover.wxml-->
+
+<view class="btn-container">
+  <button class="weui-btn" bindtap="nearby" type="primary" loading="{{loading}}">附近好去处</button>
+</view>
+
+
+<view class="filter" wx:if="{{hasResult}}"> 
+  <view class="weui-cells__title">分類</view>
+
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__bd">
+        <picker id="filter" mode="selector" bindchange="filter" value="{{pickerIndex}}" range="{{pickerArr}}">
+          <view class="weui-input">{{pickerArr[pickerIndex]}}</view>
+        </picker>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="result-container flex-wrp" wx:if="{{!filtered}}" wx:for="{{placesArr}}">
+  <image class="icon" src="{{item.icon}}"></image>
+  <view>
+    <view>{{item.name}}</view>
+    <view class="label">{{item.rating}}分</view>
+  </view>
+</view>
+
+<view class="result-container flex-wrp" wx:if="{{filtered}}" wx:for="{{filteredArr}}">
+  <image class="icon" src="{{item.icon}}"></image>
+  <view>
+    <view>{{item.name}}</view>
+    <view class="label">{{item.rating}}分</view>
+  </view>
+</view>

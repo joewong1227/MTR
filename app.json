@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/trip/trip",
+    "pages/result/result",
+    "pages/discover/discover"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#F8F8F8",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "香港地铁",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#2A8CE5",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/trip/trip",
+        "text": "查询",
+        "iconPath": "img/trip.png",
+        "selectedIconPath": "img/trip_focus.png"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "好去处",
+        "iconPath": "img/discover.png",
+        "selectedIconPath": "img/discover_focus.png"
+      }
+    ]
+  },
+  "debug": false
+}

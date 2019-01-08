@@ -1,0 +1,16 @@
+/* discover.wxss */
+@import "../../utils/weui.wxss";
+
+.icon {
+  width: 70rpx;
+  height: 70rpx;
+  margin-right: 40rpx;
+}
+
+.btn-container {
+  padding: 50rpx 20rpx 0rpx 20rpx;
+}
+
+.filter {
+  margin-bottom: 35rpx;
+}

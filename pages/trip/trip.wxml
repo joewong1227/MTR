@@ -1,0 +1,73 @@
+<!--pages/trip/trip.wxml-->
+
+<view class="page">
+
+  <image src="../../img/logo_3.png" class="logo center flex-wrp" mode="aspectFit"></image>
+
+  <view class="weui-cells__title">
+    起点站
+    <button wx:if="{{hasUserLocation}}" class="weui-btn location-btn"
+            type="default"
+            bindtap="backToPicker"
+            size="mini"
+            loading="{{locationLoading}}">
+      手动选站
+    </button>
+    <button wx:if="{{!hasUserLocation}}" class="weui-btn location-btn"
+            type="default"
+            bindtap="onGotUserLocation"
+            size="mini"
+            loading="{{locationLoading}}">
+      现时位置
+    </button>
+  </view>
+
+  <view wx:if="{{!hasUserLocation}}" class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__bd">
+        <picker id="start" mode="multiSelector" bindcolumnchange="bindStartPickerColumnChange" value="{{startIndex}}" range="{{startArray}}">
+          <view  class="weui-input">{{startArray[0][startIndex[0]]}}，{{startArray[1][startIndex[1]]}}</view>
+        </picker>
+      </view>
+    </view>
+  </view>
+
+  <view wx:if="{{hasUserLocation}}" class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <view bindtap="backToPicker" wx:if="{{hasUserLocation}}">现时位置</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="weui-cells__title">目的地</view>
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__bd">
+        <picker id="start" mode="multiSelector" bindcolumnchange="bindEndPickerColumnChange" value="{{endIndex}}" range="{{endArray}}">
+          <view class="weui-input">{{endArray[0][endIndex[0]]}}，{{endArray[1][endIndex[1]]}}</view>
+        </picker>
+      </view>
+    </view>
+  </view>
+
+  <view class="btn-container">
+    <button class="weui-btn"
+            type="primary"
+            bindtap="getTripInfo"
+            loading="{{loading}}">
+    查询路线 <icon type="search" size="18" color="white" />
+    </button>
+  </view>
+
+  <image src="../../img/MTR_routemap.jpg" class="map" bindtap="previewImage" mode="aspectFit"></image>
+  <view class="flex-wrp label center">点图放大</view>
+
+  <view class="btn-container">
+    <button class="weui-btn"
+            type="default"
+            open-type="contact">
+      联络我们
+    </button>
+  </view>
+</view>

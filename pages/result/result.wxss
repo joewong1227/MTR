@@ -1,0 +1,14 @@
+/* result.wxss */
+
+.total {
+  padding: 0rpx 20rpx 20rpx 20rpx;
+}
+
+.line {
+  color: white;
+  padding: 5rpx 10rpx;
+}
+
+.headsign {
+  padding: 5rpx 10rpx;
+}
