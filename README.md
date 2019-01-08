@@ -1,10 +1,11 @@
 # 港鐵微信小程式
 在微信小程式上即時查詢港鐵路線。
-<img src="https://github.com/wsjwong/MTR/blob/master/readme_image/mtr_qr.jpg?raw=true" width="100">
+
+Scan QR Code: <img src="https://github.com/wsjwong/MTR/blob/master/readme_image/mtr_qr.jpg?raw=true" width="100">
 
 # Demo
-![港鐵微信小程式](https://github.com/wsjwong/MTR/blob/master/readme_image/trip.png?raw=true)
-![港鐵微信小程式](https://github.com/wsjwong/MTR/blob/master/readme_image/discover.png?raw=true)
+<img src="https://github.com/wsjwong/MTR/blob/master/readme_image/trip.png?raw=true" width="250">
+<img src="https://github.com/wsjwong/MTR/blob/master/readme_image/discover.png?raw=true" width="250">
 
 # 特點
 * 即時查詢轉站路線及行程用時
